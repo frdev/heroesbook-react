@@ -1,0 +1,46 @@
+.Post {
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background-color: #FFF;
+  border-radius: .5rem;
+  box-shadow: 0 0 10px #c2c2c2;
+}
+
+.Post .author {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+}
+
+.Post .author img {
+  height: 64px;
+  border-radius: 50%;
+  background-color: #E9E9E9;
+}
+
+.Post .author .info {
+  margin-left: 1rem;
+}
+
+.Post .author .info span:first-child {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.Post .author .info span:not(:first-child) {
+  font-size: .825rem;
+  color: #b2b2b2;
+}
+
+.Post > .content {
+  margin: 1rem auto;
+}
+
+.Post .content p {
+  margin: 0;
+  padding: 0;
+}
+
+.Post .divider hr {
+  border: 1px solid #e2e2e2;
+}
